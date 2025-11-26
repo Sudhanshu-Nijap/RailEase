@@ -3,6 +3,9 @@
 ## 🚆 Overview
 This is a Flask-based web application that provides real-time Indian Railways train information and schedules using the **Indian Rail API**. Users can search for train details and view their schedules.
 
+## Live Link
+- https://railease-l3sm.onrender.com
+  
 ## 🔧 Features
 - Retrieve train details including name, source, and destination.
 - Fetch train schedules with all station stops.
@@ -31,7 +34,7 @@ pip install -r requirements.txt
 ```
 ### 4. Run the Application
 ```sh
-python app.py
+python train_app.py
 ```
 Visit **http://127.0.0.1:5000/** in your browser.
 
@@ -41,7 +44,7 @@ Visit **http://127.0.0.1:5000/** in your browser.
 
 ## 📁 Project Structure
 ```
-flask app/
+flask_app/
 │── templates/
 │   ├── index.html
 │   ├── train_info.html
